@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="textcolor_gray3">#ff333333</item>
+    <item type="drawable" name="textcolor_gray6">#ff666666</item>
+    <item type="drawable" name="textcolor_gray9">#ff999999</item>
+    <item type="drawable" name="activity_bg">#fff4f4f4</item>
+    
+</resources>

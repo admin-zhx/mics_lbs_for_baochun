@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+   
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/hello_world"
+            android:background="@drawable/wifi_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_spacing_62px"
+            android:text="@string/load_failed"
+            android:textColor="@drawable/textcolor_gray3"
+            android:textSize="@dimen/text_size_32px" />
+
+        <TextView
+            android:id="@+id/errorTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_spacing_30px"
+            android:text="@string/checkyournetwork"
+            android:textColor="@drawable/textcolor_gray9"
+            android:singleLine="false"
+            android:textSize="@dimen/text_size_26px" />
+
+        <Button
+            android:id="@+id/netstat_refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget_spacing_30px"
+            android:background="@drawable/white_button_selector"
+            android:onClick="reLoad"
+            android:text="@string/re_load"
+            android:textColor="@drawable/textcolor_gray6"
+            android:textSize="@dimen/text_size_34px" />
+
+</LinearLayout>
